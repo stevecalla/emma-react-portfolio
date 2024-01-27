@@ -61,9 +61,9 @@ section h2 {
 
 .jumbo {
   background-color: #1A1A12 !important; 
-  /* background-image: url("../../assets/images/colourful-banner3.jpg"); */
-  /* background-size: cover;
-  background-repeat: no-repeat; */
+  background-image: url(../../assets/images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   height: calc(100vh - 76px);
   border-radius: 0 !important;
   display: flex;
