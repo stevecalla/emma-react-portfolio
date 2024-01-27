@@ -1,52 +1,69 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+#root {
+  --main-color: #c57ff3;
+  --main-color-shadow: #7b4e9899;
+  background-color: #1A1A12;
+  /* height: 100vh; */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+* {
+  color: white;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section {
+padding-top: 90px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+} 
+
+section h2 {
+  padding-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* -----------------------------------Header/Nav Bar------------------------------------------------------ */
+
+.customNav {
+  position: fixed;
+  width: 100%;
+  height: 76px;
+  top: 0;
+  background-color:  var(--main-color) !important;
+  z-index: 1;
 }
 
-.card {
-  padding: 2em;
+.customNav > div {
+  background-color:  var(--main-color) !important;
+
 }
 
-.read-the-docs {
-  color: #888;
-} */
+.navbar-brand {
+  font-size: 1.6rem;
+}
 
+.navbar-collapse  {
+  background-color:  var(--main-color) !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  border-bottom: 1px solid #1A1A12;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+  color: white !important;
+  border-color: white;
+}
+
+
+/* -----------------------------------Home/Jumbotron------------------------------------------------------ */
 
 .jumbo {
   background-color: #1A1A12 !important; 
-  background-image: url("../../assets/images/colourful-banner3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-image: url("../../assets/images/colourful-banner3.jpg"); */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
   height: calc(100vh - 76px);
   border-radius: 0 !important;
   display: flex;
@@ -72,4 +89,18 @@
 
 .jumbo a {
   text-decoration: none;
+}
+
+/* -----------------------------------Home/Skills------------------------------------------------------ */
+#skills > h2 {
+  padding-bottom: 80px;
+}
+
+#skills > div > div {
+ font-size: 1.5rem;
+}
+
+.skills-box {
+  border: 4px solid var(--main-color);
+  border-radius: 5px;
 }

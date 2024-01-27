@@ -6,7 +6,7 @@ Contact:
 
 function Contact() {
     return (
-        <div></div>
+        <div>Contact me at:...</div>
     );
 };
   
