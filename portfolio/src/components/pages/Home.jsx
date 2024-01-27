@@ -22,15 +22,17 @@ Should I do components for:
 */
 
 
-import profileImg from '../../../../assets/images/profile-img.jpg'
-import snakeImg from '../../../../assets/images/snake2.jpg'
-import drumsImg from "../../../../assets/images/drum-kit.jpg"
-import pigImg from "../../../../assets/images/pig-dice-game.jpg"
+import profileImg from '../../../../assets/images/profile-img.jpg';
+import jumboImg from '../../../../assets/images/banner.jpg';
+import snakeImg from '../../../../assets/images/snake2.jpg';
+import drumsImg from '../../../../assets/images/drum-kit.jpg';
+import pigImg from '../../../../assets/images/pig-dice-game.jpg';
 
 function Home() {
+
     return (
         <div>
-            <div className="p-5 mb-4 bg-body-tertiary jumbo">
+            <div className="p-5 mb-4 bg-body-tertiary jumbo" style={{backgroundImage: `url(${jumboImg})`}}>
                 <div className="container-fluid py-5">
                     <div className="row col-11 p-3">
                         <div className="profile-img col-lg-5 col-xl-4">

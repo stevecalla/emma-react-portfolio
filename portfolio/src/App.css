@@ -61,7 +61,7 @@ section h2 {
 
 .jumbo {
   background-color: #1A1A12 !important; 
-  background-image: url(../../assets/images/banner.jpg);
+  /* background-image: url("../../assets/images/banner.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 76px);
