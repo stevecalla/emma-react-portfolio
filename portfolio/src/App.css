@@ -104,3 +104,60 @@ section h2 {
   border: 4px solid var(--main-color);
   border-radius: 5px;
 }
+
+/* -----------------------------------Home/Work------------------------------------------------------ */
+
+.card {
+  border-color: rgb(28, 28, 18);
+  min-height: 31rem;
+  border: 4px solid var(--main-color);
+}
+
+.card img {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.card a:hover {
+  box-shadow: 15px 5px 15px var(--main-color-shadow);
+}
+
+.card p {
+  color: black;
+}
+
+.card-body {
+  background-color:  rgba(198, 129, 243, 0.4)
+}
+
+
+
+
+
+
+
+/* -----------------------------------Footer------------------------------------------------------ */
+
+footer {
+  background-color:  var(--main-color);
+  height: 70px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer i {
+  margin: 20px;
+  justify-content: center;
+  font-size: 30px;
+}
+
+footer i:hover {
+  transform: scale(1.3);
+  background-image: linear-gradient(to bottom right, var(--main-color) 85%, var(--main-color-shadow) 15%);
+  box-shadow: 15px 15px 15px var(--main-color-shadow);
+}
