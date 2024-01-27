@@ -5,8 +5,10 @@ App:
 
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css';
+
+
 
 // Page components
 import Home from './components/pages/Home';
@@ -15,14 +17,16 @@ import Contact from './components/pages/Contact';
 
 // components
 import Header from './components/Header';
+import Footer from './components/Footer';
   //Do these go here or on the component they are called in i.e. NavTabs should be in Header?? ProjectGallery in Project??
-  import NavTabs from './components/NavTabs';
+  // import NavTabs from './components/NavTabs';
   import ProjectGallery from './components/ProjectGallery';
 
 
 
 function App() {
   return (
+    // <Home />
     <Router>
       <Header />
       <Routes>

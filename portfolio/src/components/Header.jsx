@@ -4,10 +4,13 @@ Header:
     - Must Contain a Navbar
 */
 
+import NavTabs from './NavTabs';
+
+
 function Header() {
     return (
-        <div></div>
+        <NavTabs />
     );
 };
   
-  export default Header;
+export default Header;

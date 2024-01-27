@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,37 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+
+.jumbo {
+  background-color: #1A1A12 !important; 
+  background-image: url("../../assets/images/colourful-banner3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 76px);
+  border-radius: 0 !important;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 76px;
+}
+
+
+.jumbo > div > div {
+  background-color: rgba(28, 28, 18, 0.8) !important; 
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-items: center;   
+}
+
+.jumbo img {
+  border-radius: 70% 30% 30% 70% / 43% 50% 50% 57% ;
+  width: 280px;
+  height: auto;
+}
+
+.jumbo a {
+  text-decoration: none;
 }
