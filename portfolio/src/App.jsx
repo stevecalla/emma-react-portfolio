@@ -3,6 +3,17 @@ App:
   - Must be your top level component and render all necessary children components
 */
 
+/* 
+Issues:
+
+NavTabs:
+  - Fix issue with hamburger button not working
+  
+*/
+
+
+
+
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 // import { useState } from 'react';

@@ -9,7 +9,6 @@ Home:
 
 /*
 Should I do components for: 
-    - Skills
     - work projects? (guess these should be in projects page and load components ar projectGallery)
     
 */
