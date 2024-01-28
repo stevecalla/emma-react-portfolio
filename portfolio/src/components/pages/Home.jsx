@@ -14,13 +14,16 @@ Should I do components for:
 */
 
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAnglesUp } from '@fortawesome/free-solid-svg-icons'
 
 // Import component
 import Skills from '../Skills';
 
 // Import images
 import profileImg from '../../../../assets/images/profile-img.jpg';
-import jumboImg from '../../../../assets/images/banner.jpg';
+import jumboImg from '../../../../assets/images/banner.jpg'; 
+
 
 function Home() {
 
@@ -69,6 +72,14 @@ function Home() {
                     <p>You can see me full career history by downloading my CV:</p>
                     <button className="btn btn-primary btn-md" >Click here to see my CV</button>
                 </div>
+
+                <NavLink 
+                    to="#" 
+                    className='mb-5'
+                >
+                    <FontAwesomeIcon icon={faAnglesUp} /> 
+                </NavLink>
+                   
             </section>
 
         </div>
