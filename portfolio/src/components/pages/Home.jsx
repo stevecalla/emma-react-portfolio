@@ -13,15 +13,14 @@ Should I do components for:
     
 */
 
+import { NavLink } from "react-router-dom";
+
 // Import component
 import Skills from '../Skills';
 
 // Import images
 import profileImg from '../../../../assets/images/profile-img.jpg';
 import jumboImg from '../../../../assets/images/banner.jpg';
-import snakeImg from '../../../../assets/images/snake2.jpg';
-import drumsImg from '../../../../assets/images/drum-kit.jpg';
-import pigImg from '../../../../assets/images/pig-dice-game.jpg';
 
 function Home() {
 
@@ -37,7 +36,12 @@ function Home() {
                             <h1 className="display-5 fw-bold">Hi! 👋 I'm Emma </h1>
                             <h2 className="fw-bold">Welcome to my portfolio</h2>
                             <p className="fs-4">I hope you enjoy looking around and getting to know me. Be sure to check out my projects for a bit of fun 🎮 and get in touch if you'd like to know more</p>
-                            <a href="#contact-me" className="btn btn-primary btn-md col-6">Contact details</a>
+                            <NavLink 
+                                to="contact" 
+                                className='btn btn-primary btn-md col-6'
+                            >
+                                Contact details 
+                            </NavLink>
                         </div>
                     </div>
                 </div>
