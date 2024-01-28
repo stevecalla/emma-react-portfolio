@@ -30,6 +30,7 @@ section h2 {
   top: 0;
   background-color:  var(--main-color) !important;
   z-index: 1;
+  color: var(--bs-navbar-color);
 }
 
 .customNav > div {
@@ -161,3 +162,40 @@ footer svg:hover {
   background-image: linear-gradient(to bottom right, var(--main-color) 85%, var(--main-color-shadow) 15%);
   box-shadow: 15px 15px 15px var(--main-color-shadow);
 }
+
+/* -----------------------------------Media Query------------------------------------------------------ */
+
+@media only screen and (max-width: 576px) {
+  .jumbo {
+      padding: 0px !important;
+      padding-left: 5px !important;
+  }
+  
+  .jumbo > div > div {
+      min-width: 380px;
+      transform: scale(0.7);
+  }
+  
+  
+  #skills > h2 {
+      padding-bottom: 40px;
+  }
+  
+  .card {
+      margin-bottom: 10px !important;
+  }
+  
+  }
+  
+  @media only screen and (max-width: 992px){
+      .jumbo > div > div {
+          text-align: center;
+          transform: scale(0.8);
+      }
+  }
+  
+  @media only screen and (min-width: 1300px){
+      .jumbo > div > div {
+          max-width: 1050px;
+      }
+  }

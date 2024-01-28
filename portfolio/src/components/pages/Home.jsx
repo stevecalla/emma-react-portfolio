@@ -8,20 +8,16 @@ Home:
 */
 
 /*
-how to add images? 
-    - bg img to jumbotron
-    - profile img
-    - work project imgs
-*/
-
-/*
 Should I do components for: 
     - Skills
     - work projects? (guess these should be in projects page and load components ar projectGallery)
     
 */
 
+// Import component
+import Skills from '../Skills';
 
+// Import images
 import profileImg from '../../../../assets/images/profile-img.jpg';
 import jumboImg from '../../../../assets/images/banner.jpg';
 import snakeImg from '../../../../assets/images/snake2.jpg';
@@ -50,17 +46,16 @@ function Home() {
 
             <section id="skills">
                 <h2>Skills</h2>
-{/* Could these be components?? */}
                 <div className="container-fluid text-center">
                     <div className="row g-3">
-                        <div className="col-lg-5 col-sm-12 p-3 m-md-auto my-md-4 skills-box">HTML</div>
-                        <div className="col-lg-5 col-sm-12 p-3 m-md-auto my-md-4 skills-box">CSS</div>
-                        <div className="col-lg-5 col-sm-12 p-3 m-md-auto my-md-4 skills-box">Bootstrap</div>
-                        <div className="col-lg-5 col-sm-12 p-3 m-md-auto my-md-4 skills-box">JavaScript</div>
-                        <div className="col-lg-5 col-sm-12 p-3 m-md-auto my-md-4 skills-box">Node.js</div>
-                        <div className="col-lg-5 col-sm-12 p-3 m-md-auto my-md-4 skills-box">React</div>
-                        <div className="col-lg-5 col-sm-12 p-3 m-md-auto my-md-4 skills-box">Git</div>
-                        <div className="col-lg-5 col-sm-12 p-3 m-md-auto my-md-4 skills-box">GitHub</div>
+                        <Skills skill='HTML'/>
+                        <Skills skill='CSS'/>
+                        <Skills skill='Bootstrap'/>
+                        <Skills skill='JavaScript'/>
+                        <Skills skill='Node.js'/>
+                        <Skills skill='React'/>
+                        <Skills skill='Git'/>
+                        <Skills skill='Github'/>
                     </div>
                 </div>
             </section>

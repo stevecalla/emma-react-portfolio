@@ -20,7 +20,6 @@ import Header from './components/Header';
 import Footer from './components/Footer';
   //Do these go here or on the component they are called in i.e. NavTabs should be in Header?? ProjectGallery in Project??
   // import NavTabs from './components/NavTabs';
-  import ProjectGallery from './components/ProjectGallery';
 
 
 
