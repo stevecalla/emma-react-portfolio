@@ -27,7 +27,7 @@ function Home() {
 
     return (
         <div>
-            <div className="p-5 mb-4 bg-body-tertiary jumbo" style={{backgroundImage: `url(${jumboImg})`}}>
+            <div className="mb-4 bg-body-tertiary jumbo" style={{backgroundImage: `url(${jumboImg})`}}>
                 <div className="container-fluid py-5">
                     <div className="row col-11 p-3">
                         <div className="profile-img col-lg-5 col-xl-4">
@@ -37,7 +37,7 @@ function Home() {
                             <h1 className="display-5 fw-bold">Hi! 👋 I'm Emma </h1>
                             <h2 className="fw-bold">Welcome to my portfolio</h2>
                             <p className="fs-4">I hope you enjoy looking around and getting to know me. Be sure to check out my projects for a bit of fun 🎮 and get in touch if you'd like to know more</p>
-                            {/* <a href="#contact-me" className="btn btn-primary btn-lg col-6">Contact details</a> */}
+                            <a href="#contact-me" className="btn btn-primary btn-md col-6">Contact details</a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ function Home() {
             <section id="skills">
                 <h2>Skills</h2>
                 <div className="container-fluid text-center">
-                    <div className="row g-3">
+                    <div className="row g-3 mb-4" id="skills-div">
                         <Skills skill='HTML'/>
                         <Skills skill='CSS'/>
                         <Skills skill='Bootstrap'/>
@@ -55,51 +55,6 @@ function Home() {
                         <Skills skill='React'/>
                         <Skills skill='Git'/>
                         <Skills skill='Github'/>
-                    </div>
-                </div>
-            </section>
-
-            <section id="work">
-                <h2>Work</h2>
-
-                <div className="container-fluid">
-                    <div className="row ms-3 me-3">
-                        
-                        {/* <!-- card 1 --> */}
-                        <div className="cardContainer col-lg-4 col-sm-12 my-lg-5 my-sm-4">
-                            <div className="card">
-                                <img src={snakeImg} className="card-img-top" alt="snake game board" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Snake Game</h5>
-                                    <p className="card-text">The classNameic Snake game. This game was created using the YouTube tutorial by Web Dev Simplified - 'How To Code The Snake Game In Javascript'.</p>
-                                    <a href="https://e-davies.github.io/snake/" target="_blank" className="btn btn-primary">Play Snake</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* <!-- card 2 --> */}
-                        <div className="cardContainer col-lg-4 col-sm-12 my-lg-5 my-sm-4">
-                            <div className="card">
-                                <img src={drumsImg} className="card-img-top" alt="keyboard drum kit" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Drum Kit</h5>
-                                    <p className="card-text">A drum kit you can use with your keyboard! See how much noise you can make 🥁. This was a project from the Wes Bos' JavaScript 30 course - a 30 day vanilla JS coding challenge.</p>
-                                    <a href="https://e-davies.github.io/drum-kit/" target="_blank" className="btn btn-primary">Come make some noise!</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* <!-- card 3 --> */}
-                        <div className="cardContainer col-lg-4 col-sm-12 my-lg-5 my-sm-4">
-                            <div className="card">
-                                <img src={pigImg} className="card-img-top" alt="2 player dice game board" />
-                                <div className="card-body">
-                                <h5 className="card-title">Pig Dice Game</h5>
-                                <p className="card-text">A simple 2 player dice game where the first player to score 100 or more points wins. But beware, you don't want to roll a 1!</p>
-                                <a href="https://e-davies.github.io/pig-dice-game/" target="_blank" className="btn btn-primary">Roll the dice</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>

@@ -10,7 +10,7 @@
 }
 
 section {
-padding-top: 90px;
+padding-top: 20px;
 margin: 0 auto;
 display: flex;
 flex-direction: column;
@@ -18,7 +18,7 @@ align-items: center;
 } 
 
 section h2 {
-  padding-bottom: 40px;
+  padding-top: 1%;
 }
 
 /* -----------------------------------Header/Nav Bar------------------------------------------------------ */
@@ -62,15 +62,12 @@ section h2 {
 
 .jumbo {
   background-color: #1A1A12 !important; 
-  /* background-image: url("../../assets/images/banner.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 76px);
   border-radius: 0 !important;
   display: flex;
   align-items: center;
-  position: relative;
-  top: 76px;
 }
 
 
@@ -94,7 +91,7 @@ section h2 {
 
 /* -----------------------------------Home/Skills------------------------------------------------------ */
 #skills > h2 {
-  padding-bottom: 80px;
+  padding-bottom: 30px;
 }
 
 #skills > div > div {
@@ -141,7 +138,7 @@ section h2 {
 
 footer {
   background-color:  var(--main-color);
-  height: 70px;
+  height: 72px;
 }
 
 footer div {
@@ -167,8 +164,11 @@ footer svg:hover {
 
 @media only screen and (max-width: 576px) {
   .jumbo {
-      padding: 0px !important;
-      padding-left: 5px !important;
+      padding: 0px !important;      
+  }
+
+  .skills-box{
+    margin-bottom: var(--bs-gutter-y);
   }
   
   .jumbo > div > div {
@@ -176,9 +176,13 @@ footer svg:hover {
       transform: scale(0.7);
   }
   
-  
   #skills > h2 {
       padding-bottom: 40px;
+  }
+
+  #skills-div  {
+    margin-left: 40px !important;
+    margin-right: 40px !important;
   }
   
   .card {
@@ -191,11 +195,34 @@ footer svg:hover {
       .jumbo > div > div {
           text-align: center;
           transform: scale(0.8);
+          margin: 3rem !important;
       }
+
+      .jumbo {
+        padding-left: 3rem;
+      }
+
+      #skills-div  {
+        margin-left: 40px !important;
+        margin-right: 40px !important;
+      }
+
+      .card {
+        max-width: 572px !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+  } 
+
+  @media only screen and (max-width: 1299px){
+    .jumbo > div > div {
+      margin: 3rem !important;
+    }
   }
   
   @media only screen and (min-width: 1300px){
       .jumbo > div > div {
           max-width: 1050px;
+          margin: 3rem !important;
       }
   }
