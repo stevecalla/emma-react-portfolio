@@ -129,9 +129,39 @@ section h2 {
 }
 
 
+/* -----------------------------------Contact------------------------------------------------------ */
 
+#contact-details {
+  border: 4px solid var(--main-color);
+  border-radius: 5px;
+  background-color: #1A1A12 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+#contact-details div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
+#contact-details svg {
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  font-size: 25px;
+}
+
+#contact-details svg:hover {
+  transform: scale(1.3);
+}
+
+.font-color {
+  color: var(--main-color);
+}
 
 
 /* -----------------------------------Footer------------------------------------------------------ */

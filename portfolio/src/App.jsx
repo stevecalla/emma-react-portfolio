@@ -4,11 +4,24 @@ App:
 */
 
 /* 
+_____________________________
 Issues:
-
+_____________________________
 NavTabs:
   - Fix issue with hamburger button not working
-  
+
+
+
+
+
+_____________________________
+TODO's:
+_____________________________
+- Add link to button to go to CV / download CV??
+    - Maybe change btn on jumbo to - download CV
+
+    
+
 */
 
 

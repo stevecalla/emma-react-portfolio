@@ -62,6 +62,15 @@ function Home() {
                     </div>
                 </div>
             </section>
+
+            <section id="cv">
+                <h2>CV</h2>
+                <div className="container-fluid text-center pb-5">
+                    <p>You can see me full career history by downloading my CV:</p>
+                    <button className="btn btn-primary btn-md" >Click here to see my CV</button>
+                </div>
+            </section>
+
         </div>
     );
 };
