@@ -150,13 +150,13 @@ footer div {
   justify-content: center;
 }
 
-footer i {
+footer svg {
   margin: 20px;
   justify-content: center;
   font-size: 30px;
 }
 
-footer i:hover {
+footer svg:hover {
   transform: scale(1.3);
   background-image: linear-gradient(to bottom right, var(--main-color) 85%, var(--main-color-shadow) 15%);
   box-shadow: 15px 15px 15px var(--main-color-shadow);
