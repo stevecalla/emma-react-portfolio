@@ -27,6 +27,8 @@ _____________________________
 
 - Add event handler to submit button on contact pg
 
+ProjectGallery:
+  - Add another btn that links to the GitHub repository
 
 */
 
