@@ -13,7 +13,7 @@ function Contact() {
             <h2>Contact me</h2>
             <div className="container">
                 <div className="row">
-                    <div className="mb-5 mt-5 col-3 mx-auto" >
+                    <div className="mb-5 mt-5 col-auto mx-auto" >
                         <div className="card-body  p-3" id="contact-details">
                             <p className="card-text"><strong>Email: </strong><span className="font-color">example@email.com</span></p>
                             <p className="card-text"><strong>Number: </strong><small className="font-color">(+44) 07000 000 000</small></p>

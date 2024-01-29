@@ -118,9 +118,7 @@ section h2 {
 /* -----------------------------------Projects/ProjectGallery------------------------------------------------------ */
 
 .card {
-  border-color: rgb(28, 28, 18);
   min-height: 31rem;
-  border: 4px solid var(--main-color);
 }
 
 .card img {
@@ -169,10 +167,11 @@ section h2 {
 
 #contact-details svg:hover {
   transform: scale(1.3);
+  color: #c57ff3 !important; /*(this is over written by * { color: white;}) -- I dont't know how to override it*/
 }
 
 .font-color {
-  color: var(--main-color);
+  color: var(--main-color) ;
 }
 
 

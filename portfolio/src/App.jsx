@@ -7,14 +7,18 @@ App:
 _____________________________
 Issues:
 _____________________________
-NavTabs:
-  - Fix issue with hamburger button not working
-
 Home -> CV:
   - fix the chevron button so that it goes to the top of the page
 
+Projects:
+  - How to access images without importing each seperately?
+
+ProjectGallery:
+  - How to push second button to next row
+
 Contact:
   - How to fix background so it fills screen - on mobile view - half is white
+  - How to get icons to hover purple in contact box - it's over ridden by * {color: white};
 
 
 
@@ -29,6 +33,7 @@ _____________________________
 
 ProjectGallery:
   - Add another btn that links to the GitHub repository
+  - Be sure to store your project data in a JSON file and import it into your project
 
 */
 
@@ -44,12 +49,13 @@ import './App.css';
 
 // Page components
 import Home from './components/pages/Home';
-import Project from './components/pages/Project';
+import ProjectGallery from './components/pages/ProjectGallery';
 import Contact from './components/pages/Contact';
 
 // components
 import Header from './components/Header';
 import Footer from './components/Footer';
+
   //Do these go here or on the component they are called in i.e. NavTabs should be in Header?? ProjectGallery in Project??
   // import NavTabs from './components/NavTabs';
 
@@ -62,7 +68,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="project" element={<Project />} />
+        <Route path="project-gallery" element={<ProjectGallery />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
       <Footer />
