@@ -5,6 +5,7 @@ import { faAnglesUp } from '@fortawesome/free-solid-svg-icons'
 
 // Import component
 import Skills from '../Skills';
+import skill from '../../../data/skills.json'
 
 // Import images
 import profileImg from '/images/profile-img.jpg';
@@ -44,14 +45,9 @@ function Home() {
                 <h2>Skills</h2>
                 <div className="container-fluid text-center">
                     <div className="row g-3 mb-4" id="skills-div">
-                        <Skills skill='HTML'/>
-                        <Skills skill='CSS'/>
-                        <Skills skill='Bootstrap'/>
-                        <Skills skill='JavaScript'/>
-                        <Skills skill='Node.js'/>
-                        <Skills skill='React'/>
-                        <Skills skill='Git'/>
-                        <Skills skill='Github'/>
+                        {skill.map((element) => {
+                            return <Skills key={element.id} skill={element.skill} />;
+                        })}
                     </div>
                 </div>
             </section>
@@ -70,4 +66,4 @@ function Home() {
     );
 };
   
-  export default Home;
+export default Home;
