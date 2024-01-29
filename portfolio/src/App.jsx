@@ -10,10 +10,11 @@ _____________________________
 Home -> CV:
   - fix the chevron button so that it goes to the top of the page
 
-Projects:
-  - How to access images without importing each seperately?
-
 ProjectGallery:
+  - How to access images without importing each seperately?
+  - How to access JSON info to render project cards
+
+Project:
   - How to push second button to next row
 
 Contact:
@@ -31,8 +32,7 @@ _____________________________
 
 - Add event handler to submit button on contact pg
 
-ProjectGallery:
-  - Add another btn that links to the GitHub repository
+Project:
   - Be sure to store your project data in a JSON file and import it into your project
 
 */

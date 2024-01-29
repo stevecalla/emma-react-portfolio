@@ -31,16 +31,16 @@ function Contact() {
                         <h5 className="card-title mb-3">Send me a message:</h5>
                         <div className="row">
                             <div className="col">
-                                <label for="exampleInputPassword1">Name</label>
+                                <label>Name</label>
                                 <input type="text" className="form-control" placeholder="Name"/>
                             </div>
                             <div className="col">
-                                <label for="exampleInputPassword1">Email</label>
+                                <label>Email</label>
                                 <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
                             </div>
                         </div>
                         <div className="form-group mt-3">
-                            <label for="exampleInputPassword1">Message</label>
+                            <label>Message</label>
                             <textarea type="password" className="form-control" id="exampleInputPassword1" placeholder="Message" ></textarea>
                         </div>
                         <button type="submit" className="btn btn-sm btn-primary mt-4">Submit</button>

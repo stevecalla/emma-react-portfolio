@@ -115,6 +115,10 @@ section h2 {
   transform: scale(1.3);
 }
 
+
+.scroll-to-top-btn{
+  background-color: none;
+}
 /* -----------------------------------Projects/ProjectGallery------------------------------------------------------ */
 
 .card {

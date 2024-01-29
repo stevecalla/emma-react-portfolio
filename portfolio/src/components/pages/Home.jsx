@@ -27,6 +27,10 @@ import jumboImg from '../../../../assets/images/banner.jpg';
 
 function Home() {
 
+    const scrollToTop = () => {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
     return (
         <div>
             <div className="mb-4 bg-body-tertiary jumbo" style={{backgroundImage: `url(${jumboImg})`}}>
@@ -73,12 +77,9 @@ function Home() {
                     <button className="btn btn-primary btn-md" >Click here to see my CV</button>
                 </div>
 
-                <NavLink 
-                    to="#" 
-                    className='mb-5'
-                >
-                    <FontAwesomeIcon icon={faAnglesUp} /> 
-                </NavLink>
+                <FontAwesomeIcon onClick={scrollToTop} icon={faAnglesUp} /> 
+
+                
                    
             </section>
 

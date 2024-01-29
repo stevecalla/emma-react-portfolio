@@ -3,7 +3,7 @@
         "id": 1,
         "img": "{snakeImg}",
         "title": "Snake Game",
-        "descr": "The classNameic Snake game. This game was created using the YouTube tutorial by Web Dev Simplified - 'How To Code The Snake Game In Javascript'.",
+        "descr": "The classic Snake game. This game was created using the YouTube tutorial by Web Dev Simplified - 'How To Code The Snake Game In Javascript'.",
         "deployedLink": "https://e-davies.github.io/snake/",
         "btn": "Play Snake",
         "githubLink":"https://github.com/E-Davies/snake"
