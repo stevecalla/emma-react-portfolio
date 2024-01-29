@@ -10,6 +10,33 @@
     },
     {
         "id": 2,
+        "img": "{travellerImg}",
+        "title": "travel.ler",
+        "descr": "A dashboard to display information for visitors to the UK ✈️. Whatever your destination, travel.ler will give you all the information you need about the weather 🌦, the news 🗞️, and exchange rates 💰",
+        "deployedLink": "https://lico27.github.io/travelLER/",
+        "btn": "Plan Your Trip",
+        "githubLink":"https://github.com/lico27/travelLER"
+    },
+    {
+        "id": 3,
+        "img": "{workPlannerImg}",
+        "title": "Work Day Scheduler",
+        "descr": "As an employee with a busy schedule, I want to add important events to a daily planner so that I can manage my time effectively.",
+        "deployedLink": "https://e-davies.github.io/Work-Day-Scheduler/",
+        "btn": "Plan my Day",
+        "githubLink":"https://github.com/E-Davies/Work-Day-Scheduler"
+    },
+    {
+        "id": 4,
+        "img": "{codeQuizImg}",
+        "title": "Code Quiz",
+        "descr": "I wanted to create a code quiz to help students test their knowledge under coding assessment conditions to replicate what that they will face as part of the interview process to land their first role in tech.",
+        "deployedLink": "https://e-davies.github.io/Code-Quiz/", 
+        "btn": "Take the Quiz",
+        "githubLink":"https://github.com/E-Davies/Code-Quiz"
+    },
+    {
+        "id": 5,
         "img":"{drumsImg}",
         "title": "Drum Kit ",
         "descr":"A drum kit you can use with your keyboard! See how much noise you can make 🥁. This was a project from the Wes Bos' JavaScript 30 course - a 30 day vanilla JS coding challenge.",
@@ -18,38 +45,12 @@
         "githubLink":"https://github.com/E-Davies/drum-kit/"
     },
     {
-        "id": 3,
+        "id": 6,
         "img": "{pigImg}",
         "title": "Pig Dice Game",
         "descr": "A simple 2 player dice game where the first player to score 100 or more points wins. But beware, you don't want to roll a 1!",
         "deployedLink": "https://e-davies.github.io/pig-dice-game/",
         "btn": "Roll the dice",
         "githubLink":"https://github.com/E-Davies/pig-dice-game/"
-    },
-    {
-        "id": 4,
-        "img": "",
-        "title": "travel.ler",
-        "descr": "A dashboard to display information for visitors to the UK ✈️. Whatever your destination, travel.ler will give you all the information you need about the weather 🌦, the news 🗞️, and exchange rates 💰",
-        "deployedLink": "https://lico27.github.io/travelLER/",
-        "btn": "Plan Your Trip",
-        "githubLink":"https://github.com/lico27/travelLER"
-    },
-    {
-        "id": 5,
-        "img": "",
-        "title": "README Generator",
-        "descr": "As a developer, I wanted to create a README generator so that I can quickly create a professional README for a new project. Using Node.js, this command-line application will take user input to produce a fully complete READ.md file.",
-        "deployedLink": "https://github.com/E-Davies/readme-generator/",
-        "btn": "Generate a README",
-        "githubLink":"https://github.com/E-Davies/readme-generator/"
-    },{
-        "id": 6,
-        "img": "",
-        "title": "Code Quiz",
-        "descr": "I wanted to create a code quiz to help students test their knowledge under coding assessment conditions to replicate what that they will face as part of the interview process to land their first role in tech.",
-        "deployedLink": "https://e-davies.github.io/Code-Quiz/", 
-        "btn": "Take the Quiz",
-        "githubLink":"https://github.com/E-Davies/Code-Quiz"
-    }
+    }    
 ]

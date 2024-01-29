@@ -7,9 +7,6 @@ App:
 _____________________________
 Issues:
 _____________________________
-Home -> CV:
-  - fix the chevron button so that it goes to the top of the page
-
 ProjectGallery:
   - How to access images without importing each seperately?
   - How to access JSON info to render project cards
@@ -18,8 +15,9 @@ Project:
   - How to push second button to next row
 
 Contact:
-  - How to fix background so it fills screen - on mobile view - half is white
+  - How to fix background so it fills screen - on different mobile views - half is white
   - How to get icons to hover purple in contact box - it's over ridden by * {color: white};
+  - how to make Name & Email boxes fall on different rows when on a small screen & for the form to take up more columns on smaller screens
 
 
 
@@ -32,8 +30,18 @@ _____________________________
 
 - Add event handler to submit button on contact pg
 
+- Add link to email address - should this be <linl> or <a>??
+
 Project:
   - Be sure to store your project data in a JSON file and import it into your project
+
+GitHub / LI:
+  GitHub:
+  - Update GitHub profile with pinned repositories featuring those same projects.
+
+  LI:
+  - Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
+
 
 */
 

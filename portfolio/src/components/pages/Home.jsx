@@ -73,14 +73,11 @@ function Home() {
             <section id="cv">
                 <h2>CV</h2>
                 <div className="container-fluid text-center pb-5">
-                    <p>You can see me full career history by downloading my CV:</p>
-                    <button className="btn btn-primary btn-md" >Click here to see my CV</button>
+                    <p>You can see my full career history by downloading my CV:</p>
+                    <a href="https://drive.google.com/file/d/1hpeFeMYgNQVjTkMjmTkkEAsB-rugs1mG/view?usp=sharing" target="_blank" className="btn btn-primary">Click here to see my CV</a>
                 </div>
 
-                <FontAwesomeIcon onClick={scrollToTop} icon={faAnglesUp} /> 
-
-                
-                   
+                <FontAwesomeIcon onClick={scrollToTop} icon={faAnglesUp} />    
             </section>
 
         </div>

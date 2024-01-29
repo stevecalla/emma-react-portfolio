@@ -14,6 +14,9 @@ import projects from '../../../data/projects.json'
 import snakeImg from '../../../../assets/images/snake2.jpg';
 import drumsImg from '../../../../assets/images/drum-kit.jpg';
 import pigImg from '../../../../assets/images/pig-dice-game.jpg';
+import travellerImg from '../../../../assets/images/travel.ler.png'; 
+import workPlannerImg from '../../../../assets/images/work-scheduler.jpg'; 
+import codeQuizImg from '../../../../assets/images/code-quiz.jpg'; 
 
 function ProjectGallery() {
     return (
@@ -44,23 +47,23 @@ function ProjectGallery() {
                         />
                     </div>
                     <div className="row ms-3 me-3">
-                        <Project img={snakeImg}
-                                        title='Snake Game' 
+                        <Project img={travellerImg}
+                                        title='travel.ler' 
                                         descr="The classNameic Snake game. This game was created using the YouTube tutorial by Web Dev Simplified - 'How To Code The Snake Game In Javascript'."
                                         link="https://e-davies.github.io/snake/"
-                                        btn='Play Snake'
+                                        btn='Plan your Trip'
                         />
-                        <Project img={drumsImg}
-                                        title='Drum Kit' 
+                        <Project img={workPlannerImg}
+                                        title='Work Planner' 
                                         descr="A drum kit you can use with your keyboard! See how much noise you can make 🥁. This was a project from the Wes Bos' JavaScript 30 course - a 30 day vanilla JS coding challenge."
                                         link="https://e-davies.github.io/drum-kit/"
-                                        btn='Come make some noise!'
+                                        btn='Plan your Day'
                         />
-                        <Project img={pigImg}
-                                        title='Pig Dice Game' 
+                        <Project img={codeQuizImg}
+                                        title='Code Quiz' 
                                         descr="A simple 2 player dice game where the first player to score 100 or more points wins. But beware, you don't want to roll a 1!"
                                         link="https://e-davies.github.io/pig-dice-game/"
-                                        btn='Roll the dice'
+                                        btn='Try the Quiz'
                         /> */}
                     </div>
                 </div>
