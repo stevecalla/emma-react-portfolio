@@ -1,11 +1,11 @@
 
 import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAnglesUp } from '@fortawesome/free-solid-svg-icons'
+
 
 // Import component
 import Skills from '../Skills';
 import skill from '../../../data/skills.json'
+import ScrollToTop from '../ScrollToTop'
 
 // Import images
 import profileImg from '/images/profile-img.jpg';
@@ -13,11 +13,6 @@ import jumboImg from '/images/banner.jpg';
 
 
 function Home() {
-
-    const scrollToTop = () => {
-        window.scrollTo({top: 0, behavior: 'smooth'});
-    }
-
     return (
         <div>
             <div className="mb-4 bg-body-tertiary jumbo" style={{backgroundImage: `url(${jumboImg})`}}>
@@ -59,7 +54,7 @@ function Home() {
                     <a href="https://drive.google.com/file/d/1hpeFeMYgNQVjTkMjmTkkEAsB-rugs1mG/view?usp=sharing" target="_blank" className="btn btn-primary">Click here to see my CV</a>
                 </div>
 
-                <FontAwesomeIcon onClick={scrollToTop} icon={faAnglesUp} />    
+                <ScrollToTop />    
             </section>
 
         </div>

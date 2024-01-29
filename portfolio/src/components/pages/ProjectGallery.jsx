@@ -2,6 +2,7 @@
 // Import Component
 import Project from '../Project';
 import projects from '../../../data/projects.json'
+import ScrollToTop from '../ScrollToTop';
 
 
 function ProjectGallery() {
@@ -23,6 +24,7 @@ function ProjectGallery() {
                         })}
                     </div>
                 </div>
+                <ScrollToTop />  
         </section>
     );
 };

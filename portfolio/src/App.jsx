@@ -25,7 +25,6 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    // <Home />
     <Router>
       <Header />
       <Routes>

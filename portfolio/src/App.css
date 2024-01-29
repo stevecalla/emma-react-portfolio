@@ -10,7 +10,6 @@
 
 body{
   background-color: #1A1A12 !important;
-  height: 100vh;
 }
 
 section {
@@ -107,22 +106,18 @@ section h2 {
   border-radius: 5px;
 }
 
-/* -----------------------------------Home/CV------------------------------------------------------ */
+/* -----------------------------------Scroll Buttons------------------------------------------------------ */
 
-#cv svg {
+#scroll-to-top {
   margin: 20px;
   justify-content: center;
   font-size: 30px;
 }
 
-#cv svg:hover {
+#scroll-to-top:hover {
   transform: scale(1.3);
 }
 
-
-.scroll-to-top-btn{
-  background-color: none;
-}
 /* -----------------------------------Projects/ProjectGallery------------------------------------------------------ */
 
 .card {
@@ -225,14 +220,16 @@ footer svg:hover {
       padding: 0px !important;      
   }
 
+  .jumbo > div > div {
+      min-width: 380px;
+      transform: scale(0.8);
+      text-align: center;
+  }
+
   .skills-box{
     margin-bottom: var(--bs-gutter-y);
   }
   
-  .jumbo > div > div {
-      min-width: 380px;
-      transform: scale(0.7);
-  }
   
   #skills > h2 {
       padding-bottom: 40px;
@@ -249,11 +246,11 @@ footer svg:hover {
   
   }
   
-  @media only screen and (max-width: 992px){
+  @media only screen and (max-width: 992px) and (min-width: 577px){
       .jumbo > div > div {
           text-align: center;
           transform: scale(0.8);
-          margin: 3rem !important;
+          margin: 2rem !important;
       }
 
       .jumbo {
@@ -272,7 +269,7 @@ footer svg:hover {
     }
   } 
 
-  @media only screen and (max-width: 1299px){
+  @media only screen and (max-width: 1299px) and (min-width: 993px){
     .jumbo > div > div {
       margin: 3rem !important;
     }
