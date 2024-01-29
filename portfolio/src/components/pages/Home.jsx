@@ -1,17 +1,3 @@
-/*
-Home:
-    This should be a welcome landing page that contains:
-        - Your Name
-        - A Headshot of you
-        - Your brand statement
-        - Some indication that this is your portfolio site
-*/
-
-/*
-Should I do components for: 
-    - work projects? (guess these should be in projects page and load components ar projectGallery)
-    
-*/
 
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -21,8 +7,8 @@ import { faAnglesUp } from '@fortawesome/free-solid-svg-icons'
 import Skills from '../Skills';
 
 // Import images
-import profileImg from '../../../../assets/images/profile-img.jpg';
-import jumboImg from '../../../../assets/images/banner.jpg'; 
+import profileImg from '/images/profile-img.jpg';
+import jumboImg from '/images/banner.jpg'; 
 
 
 function Home() {
