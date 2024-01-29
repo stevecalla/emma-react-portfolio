@@ -5,7 +5,6 @@ import projects from '../../../data/projects.json'
 
 
 function ProjectGallery() {
-    console.log(projects);
     return (
         <section id="work">
                 <h2>Projects</h2>
