@@ -8,18 +8,18 @@ import skill from '../../../data/skills.json'
 import ScrollToTop from '../ScrollToTop'
 
 // Import images
-import profileImg from '/images/profile-img.jpg';
-import jumboImg from '/images/banner.jpg'; 
+// import profileImg from './images/profile-img.jpg';
+// import jumboImg from './images/banner.jpg'; 
 
 
 function Home() {
     return (
         <main>
-            <div className="mb-4 bg-body-tertiary jumbo" style={{backgroundImage: `url(${jumboImg})`}}>
+            <div className="mb-4 bg-body-tertiary jumbo" style={{backgroundImage: `url(./images/banner.jpg)`}}>
                 <div className="container-fluid py-5">
                     <div className="row col-11 p-3">
                         <div className="profile-img col-lg-5 col-xl-4">
-                            <img src={profileImg} className=".img-fluid" alt="profile image"/>
+                            <img src='./images/profile-img.jpg' className=".img-fluid" alt="profile image"/>
                         </div>
                         <div className="profile-detail col-sm col-lg-7 col-xl-8">
                             <h1 className="display-5 fw-bold">Hi! 👋 I'm Emma </h1>

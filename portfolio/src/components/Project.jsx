@@ -3,7 +3,7 @@ function Project(props) {
     return (
         <div className="cardContainer col-lg-4 col-sm-12 my-lg-5 my-sm-4">
             <div className="card">
-                <img src={'/images/'+props.img} className="card-img-top" alt="snake game board" />
+                <img src={'./images/'+props.img} className="card-img-top" alt="snake game board" />
                 <div className="card-body d-flex flex-column justify-content-between">
                     <div>
                         <h5 className="card-title">{props.title}</h5>
