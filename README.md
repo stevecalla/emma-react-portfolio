@@ -5,6 +5,11 @@
 
 I wanted to re-create my portfolio webpage using React to showcase my work and skills to employers who are looking to hire. 
 
+For this project I have implemented the following technologies:
+* React Router
+* React components
+* Components that takes JSON data as a props and dynamically renders an instance of that component (i.e. My ProjectGallery component renders 6 instances of my Project component which uses JSON data as props.)
+
 ![screenshot of portfolio](./portfolio/public/images/portfolio-screenshot.png) 
 
 ## Table of Contents 

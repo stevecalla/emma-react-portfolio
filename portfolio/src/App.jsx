@@ -1,14 +1,3 @@
-/*
-_____________________________
-TODO's:
-_____________________________
-- Write README & Add screenshots
-- How to deploy the app??
-- check for errors in console
-- make writing in cards justified
-
-*/
-
 
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
