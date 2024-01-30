@@ -5,6 +5,7 @@ _____________________________
 - Write README & Add screenshots
 - How to deploy the app??
 - check for errors in console
+- make writing in cards justified
 
 */
 
