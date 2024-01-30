@@ -3,8 +3,8 @@ _____________________________
 TODO's:
 _____________________________
 - Write README & Add screenshots
-- Check why footer doesn't stay at the bottom on mobile devices
 - How to deploy the app??
+- check for errors in console
 
 */
 
