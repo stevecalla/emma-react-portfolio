@@ -2,9 +2,9 @@
 _____________________________
 TODO's:
 _____________________________
-GitHub / LI:
-  GitHub:
-  - Update GitHub profile with pinned repositories featuring those same projects.
+- Write README & Add screenshots
+- Check why footer doesn't stay at the bottom on mobile devices
+- How to deploy the app??
 
 */
 

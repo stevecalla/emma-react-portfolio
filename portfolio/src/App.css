@@ -24,6 +24,10 @@ section h2 {
   padding-top: 1%;
 }
 
+main {
+  min-height: calc(100vh - 147.583px); /* This ensures that the footer is at the bottom of the page despite if there isn't much content in main which would naturally push the footer to the bottom*/
+}
+
 /* -----------------------------------Header/Nav Bar------------------------------------------------------ */
 
 .customNav {

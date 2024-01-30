@@ -14,7 +14,7 @@ import jumboImg from '/images/banner.jpg';
 
 function Home() {
     return (
-        <div>
+        <main>
             <div className="mb-4 bg-body-tertiary jumbo" style={{backgroundImage: `url(${jumboImg})`}}>
                 <div className="container-fluid py-5">
                     <div className="row col-11 p-3">
@@ -53,11 +53,9 @@ function Home() {
                     <p>You can see my full career history by downloading my CV:</p>
                     <a href="https://drive.google.com/file/d/1hpeFeMYgNQVjTkMjmTkkEAsB-rugs1mG/view?usp=sharing" target="_blank" className="btn btn-primary">Click here to see my CV</a>
                 </div>
-
                 <ScrollToTop />    
             </section>
-
-        </div>
+        </main>
     );
 };
   
