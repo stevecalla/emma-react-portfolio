@@ -125,7 +125,6 @@ main {
 /* -----------------------------------Projects/ProjectGallery------------------------------------------------------ */
 
 .card {
-  min-height: 33rem;
   border: 1px solid  #1A1A12 !important;
 }
 
@@ -138,7 +137,7 @@ main {
   box-shadow: 15px 5px 15px var(--main-color-shadow);
 }
 
-.card p {
+.card p, .card h5 {
   color: black;
 }
 
@@ -276,6 +275,10 @@ footer svg:hover {
   @media only screen and (max-width: 1299px) and (min-width: 993px){
     .jumbo > div > div {
       margin: 3rem !important;
+    }
+
+    .card {
+      min-height: 31rem;
     }
   }
   
