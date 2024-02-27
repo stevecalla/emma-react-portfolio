@@ -24,11 +24,18 @@ function Contact() {
 
                     <div className="row">
                         <form className="mb-5 col-lg-8 col-xs-10 mx-auto" action="https://formsubmit.co/193d2d7cfce46e1be8fcaab52f8ba719" method="POST">
+                        
+                        {/* after submitting a form the user is shown the contact page */}
+                        <input type="hidden" name="_next" value="https://e-davies.github.io/react-portfolio/?#/contact"/>
+                        
+                        {/* Disable reCAPTCHA  */}
+                        <input type="hidden" name="_captcha" value="false"></input>
+                            
                             <h5 className="card-title mb-3">Send me a message:</h5>
                             <div className="row">
                                 <div className="col-xs-12 col-md-6">
                                     <label>Name</label>
-                                    <input type="text" name="Name" className="form-control" placeholder="Name" required />
+                                    <input type="text" name="Name" className="form-control" id="inputName" placeholder="Name" required />
                                 </div>
                                 <div className="col-xs-12 col-md-6">
                                     <label>Email</label>
