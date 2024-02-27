@@ -23,7 +23,7 @@ function Contact() {
                     </div>
 
                     <div className="row">
-                        <form className="mb-5 col-lg-8 col-xs-10 mx-auto" action="https://formsubmit.co/emma002@btclick.com" method="POST">
+                        <form className="mb-5 col-lg-8 col-xs-10 mx-auto" action="https://formsubmit.co/193d2d7cfce46e1be8fcaab52f8ba719" method="POST">
                             <h5 className="card-title mb-3">Send me a message:</h5>
                             <div className="row">
                                 <div className="col-xs-12 col-md-6">
