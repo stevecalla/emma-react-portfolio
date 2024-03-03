@@ -1,8 +1,35 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
+
 
 function Contact() {
+
+    /************** Allow user to send a message via the contact form using email.js *******************/
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+        .sendForm('service_qpkgtem', 'template_i9musmj', form.current, {
+            publicKey: 'rmJYwfht2pyj1dWmv',
+        })
+        .then(
+            () => {
+            toast("📧 Sent! Thank you for sending me a message. I will get back to you very soon", {autoClose: 2000, theme: "dark",})
+            e.target.reset();
+            },
+            (error) => {
+            console.log('FAILED...', error.text);
+            toast.error("Error! Could not send message.", {autoClose: 3000, theme: "dark",})
+            },
+        );
+    };
+    /******************************************************************************************************/
     
     return (
         <main>
@@ -24,30 +51,23 @@ function Contact() {
                     </div>
 
                     <div className="row">
-                        <form id="contact-form" className="mb-5 col-lg-8 col-xs-10 mx-auto" action="https://formsubmit.co/emma002@btclick.com" method="POST">
-                        
-                        {/* after submitting a form the user is shown the contact page */}
-                        {/* <input type="hidden" name="_next" value="https://e-davies.github.io/react-portfolio/#/contact"/> */}
-                        
-                        {/* Disable reCAPTCHA  */}
-                        <input type="hidden" name="_captcha" value="false"></input>
-                            
+                        <form id="contact-form" className="mb-5 col-lg-8 col-xs-10 mx-auto" ref={form} onSubmit={sendEmail}>                           
                             <h5 className="card-title mb-3">Send me a message:</h5>
                             <div className="row">
                                 <div className="col-xs-12 col-md-6">
-                                    <label for="inputName">Name</label>
-                                    <input type="text" name="Name" className="form-control" id="inputName" placeholder="Name" required />
+                                    <label htmlFor="inputName">Name</label>
+                                    <input type="text" name="user_name" className="form-control" id="inputName" placeholder="Name" required />
                                 </div>
                                 <div className="col-xs-12 col-md-6">
-                                    <label for="inputEmail">Email</label>
-                                    <input type="email" name='Email' className="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email" required />
+                                    <label htmlFor="inputEmail">Email</label>
+                                    <input type="email" name="user_email"  className="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email" required />
                                 </div>
                             </div>
                             <div className="form-group mt-3">
-                                <label for="inputMessage">Message</label>
-                                <textarea type="text" name='Message' className="form-control" id="inputMessage" placeholder="Message" required></textarea>
+                                <label htmlFor="inputMessage">Message</label>
+                                <textarea type="text" name='message' className="form-control" id="inputMessage" placeholder="Message" required></textarea>
                             </div>
-                            <button type="submit" className="btn btn-sm btn-primary mt-4">Submit</button>
+                            <button type="submit" value="Send" className="btn btn-sm btn-primary mt-4">Submit</button>
                         </form>
                     </div>
 
