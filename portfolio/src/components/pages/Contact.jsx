@@ -24,7 +24,7 @@ function Contact() {
                     </div>
 
                     <div className="row">
-                        <form className="mb-5 col-lg-8 col-xs-10 mx-auto" action="https://formsubmit.co/emma002@btclick.com" method="POST">
+                        <form id="contact-form" className="mb-5 col-lg-8 col-xs-10 mx-auto" action="https://formsubmit.co/emma002@btclick.com" method="POST">
                         
                         {/* after submitting a form the user is shown the contact page */}
                         {/* <input type="hidden" name="_next" value="https://e-davies.github.io/react-portfolio/#/contact"/> */}
@@ -35,16 +35,16 @@ function Contact() {
                             <h5 className="card-title mb-3">Send me a message:</h5>
                             <div className="row">
                                 <div className="col-xs-12 col-md-6">
-                                    <label>Name</label>
+                                    <label for="inputName">Name</label>
                                     <input type="text" name="Name" className="form-control" id="inputName" placeholder="Name" required />
                                 </div>
                                 <div className="col-xs-12 col-md-6">
-                                    <label>Email</label>
+                                    <label for="inputEmail">Email</label>
                                     <input type="email" name='Email' className="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email" required />
                                 </div>
                             </div>
                             <div className="form-group mt-3">
-                                <label>Message</label>
+                                <label for="inputMessage">Message</label>
                                 <textarea type="text" name='Message' className="form-control" id="inputMessage" placeholder="Message" required></textarea>
                             </div>
                             <button type="submit" className="btn btn-sm btn-primary mt-4">Submit</button>
