@@ -23,10 +23,10 @@ function Contact() {
                     </div>
 
                     <div className="row">
-                        <form className="mb-5 col-lg-8 col-xs-10 mx-auto" action="https://formsubmit.co/193d2d7cfce46e1be8fcaab52f8ba719" method="POST">
+                        <form className="mb-5 col-lg-8 col-xs-10 mx-auto" action="https://formsubmit.co/emma002@btclick.com" method="POST">
                         
                         {/* after submitting a form the user is shown the contact page */}
-                        <input type="hidden" name="_next" value="https://e-davies.github.io/react-portfolio/?#/contact"/>
+                        {/* <input type="hidden" name="_next" value="https://e-davies.github.io/react-portfolio/?#/contact"/> */}
                         
                         {/* Disable reCAPTCHA  */}
                         <input type="hidden" name="_captcha" value="false"></input>
