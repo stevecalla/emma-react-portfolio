@@ -4,28 +4,6 @@ import { faLinkedinIn, faGithub, faInstagram } from '@fortawesome/free-brands-sv
 
 function Contact() {
     
-    // const axios = require('axios/dist/node/axios.cjs');
-
-    // axios.defaults.headers.post['Content-Type'] = 'application/json';
-    // axios.post('https://formsubmit.co/ajax/emma002@btclick.com', {
-    //     name: "FormSubmit",
-    //     message: "I'm from Devro LABS"
-    // })
-    //     .then(response => console.log(response))
-    //     .catch(error => console.log(error));
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        fetch('https://formsubmit.co/ajax/emma002@btclick.com', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            },
-            body: JSON.stringify(Object.fromEntries(new FormData(event.target))),
-        })
-    }
-
     return (
         <main>
             <section id="contact">
@@ -46,10 +24,10 @@ function Contact() {
                     </div>
 
                     <div className="row">
-                        <form className="mb-5 col-lg-8 col-xs-10 mx-auto" onSubmit={handleSubmit} method="POST">
+                        <form className="mb-5 col-lg-8 col-xs-10 mx-auto" action="https://formsubmit.co/emma002@btclick.com" method="POST">
                         
                         {/* after submitting a form the user is shown the contact page */}
-                        {/* <input type="hidden" name="_next" value="https://e-davies.github.io/react-portfolio/?#/contact"/> */}
+                        {/* <input type="hidden" name="_next" value="https://e-davies.github.io/react-portfolio/#/contact"/> */}
                         
                         {/* Disable reCAPTCHA  */}
                         <input type="hidden" name="_captcha" value="false"></input>
