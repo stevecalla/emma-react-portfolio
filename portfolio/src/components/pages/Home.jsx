@@ -7,10 +7,6 @@ import Skills from '../Skills';
 import skill from '../../../data/skills.json'
 import ScrollToTop from '../ScrollToTop'
 
-// Import images
-// import profileImg from './images/profile-img.jpg';
-// import jumboImg from './images/banner.jpg'; 
-
 
 function Home() {
     return (
@@ -51,7 +47,7 @@ function Home() {
                 <h2>CV</h2>
                 <div className="container-fluid text-center pb-5">
                     <p>You can see my full career history by downloading my CV:</p>
-                    <a href="https://drive.google.com/file/d/1Ff8gmJN5gIg4BeOFCnkc6CjWrLk9NRxD/view?usp=drive_link" target="_blank" className="btn btn-primary">Click here to see my CV</a>
+                    <a href="https://drive.google.com/file/d/1DRcnmqUQVhH3BJMnL9-VU6_qn00xrpoY/view?usp=sharing" target="_blank" className="btn btn-primary">Click here to see my CV</a>
                 </div>
                 <ScrollToTop />    
             </section>

@@ -8,6 +8,10 @@ import { toast } from 'react-toastify';
 
 function Contact() {
 
+    const sendToast = () => {
+        toast("📧 Teeeeeeeeeeeeeeeesting!", {autoClose: 4000, theme: "dark",})
+    }
+
     /************** Allow user to send a message via the contact form using email.js *******************/
     const form = useRef();
 
@@ -20,12 +24,12 @@ function Contact() {
         })
         .then(
             () => {
-            toast("📧 Sent! Thank you for sending me a message. I will get back to you very soon", {autoClose: 2000, theme: "dark",})
+            toast("📧 Sent! Thank you for sending me a message. I will get back to you very soon", {autoClose: 4000, theme: "dark",})
             e.target.reset();
             },
             (error) => {
             console.log('FAILED...', error.text);
-            toast.error("Error! Could not send message.", {autoClose: 3000, theme: "dark",})
+            toast.error("Error! Could not send message.", {autoClose: 4000, theme: "dark",})
             },
         );
     };
@@ -69,6 +73,7 @@ function Contact() {
                             </div>
                             <button type="submit" value="Send" className="btn btn-sm btn-primary mt-4">Submit</button>
                         </form>
+                        <button type="submit" value="Send" className="btn btn-sm btn-primary mt-4" onClick={sendToast}>Submit</button>
                     </div>
 
                 </div>
