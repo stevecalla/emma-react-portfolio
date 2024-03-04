@@ -1,5 +1,5 @@
-
 function Project(props) {
+  console.log(props);
     return (
         <div className="cardContainer col-lg-4 col-sm-12 my-lg-5 my-sm-4">
             <div className="card">

@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "snake2.jpg",
+        "img": "./assets/snake2.jpg",
         "title": "Snake Game",
         "descr": "The classic Snake game. This game was created using the YouTube tutorial by Web Dev Simplified - 'How To Code The Snake Game In Javascript'.",
         "deployedLink": "https://e-davies.github.io/snake/",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "img": "travel.ler.png",
+        "img": "./assets/travel.ler.png",
         "title": "travel.ler",
         "descr": "A dashboard to display information for visitors to the UK ✈️. Whatever your destination, travel.ler will give you all the information you need about the weather 🌦, the news 📰, and exchange rates 💰",
         "deployedLink": "https://lico27.github.io/travelLER/",
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "img": "work-scheduler.jpg",
+        "img": "./assets/work-scheduler.jpg",
         "title": "Work Day Scheduler",
         "descr": "As an employee with a busy schedule, I want to add important events to a daily planner so that I can manage my time effectively.",
         "deployedLink": "https://e-davies.github.io/Work-Day-Scheduler/",
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "img": "code-quiz.jpg",
+        "img": "./assets/code-quiz.jpg",
         "title": "Code Quiz",
         "descr": "I wanted to create a code quiz to help students test their knowledge under coding assessment conditions to replicate what that they will face as part of the interview process to land their first role in tech.",
         "deployedLink": "https://e-davies.github.io/Code-Quiz/", 
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "img":"drum-kit.jpg",
+        "img":"./assets/drum-kit.jpg",
         "title": "Drum Kit ",
         "descr":"A drum kit you can use with your keyboard! See how much noise you can make 🥁. This was a project from the Wes Bos' JavaScript 30 course - a 30 day vanilla JS coding challenge.",
         "deployedLink":"https://e-davies.github.io/drum-kit/",
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "img": "pig-dice-game.jpg",
+        "img": "./assets/pig-dice-game.jpg",
         "title": "Pig Dice Game",
         "descr": "A simple 2 player dice game where the first player to score 100 or more points wins. But beware, you don't want to roll a 1!",
         "deployedLink": "https://e-davies.github.io/pig-dice-game/",
