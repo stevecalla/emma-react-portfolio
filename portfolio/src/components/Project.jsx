@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-no-target-blank */
 // function Project(props) {
 function Project({ img, descr, title, deployedLink, githubLink, btn }) {
