@@ -73,7 +73,7 @@ function Contact() {
                             </div>
                             <button type="submit" value="Send" className="btn btn-sm btn-primary mt-4">Submit</button>
                         </form>
-                        <button type="submit" value="Send" className="btn btn-sm btn-primary mt-4" onClick={sendToast}>Submit</button>
+                        <button type="submit" value="Send" className="btn btn-sm btn-primary mt-4 w-50" onClick={sendToast}>Test Toast</button>
                     </div>
 
                 </div>
