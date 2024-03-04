@@ -43,7 +43,7 @@ function Contact() {
                     <div className="row">
                         <div className="mb-5 mt-5 col-auto mx-auto" >
                             <div className="card-body  p-3" id="contact-details">
-                                <p className="card-text"><strong>Email: </strong><a className="font-color" href="mailto:example@email.com">example@email.com</a></p>
+                                <p className="card-text"><strong>Email: </strong><a className="font-color" href="mailto:myexample@email.com">myexample@email.com</a></p>
                                 <p className="card-text"><strong>Number: </strong><a className="font-color" href="tel:+447000000000">(+44) 07000 000 000</a></p>
                                 <div>
                                     <a href="https://www.linkedin.com/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
